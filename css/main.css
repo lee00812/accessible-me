@@ -35,7 +35,7 @@ h6 {
 }
 .skip-links a:focus{
   top: 0;
-}
+}     
 
 img {
   width: 100%;
@@ -97,3 +97,15 @@ form button {
 .site-footer {
   padding: 2rem 0;
 }
+
+footer a:link,
+footer a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover,
+footer a:active {
+  text-decoration: underline;
+}
+

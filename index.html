@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container" id="top">
     <ul class="skip-links">
       <li><a href="#nav">Skip to main nav</a></li>
       <li><a href="#main">Skip to main content</a></li>
@@ -54,20 +54,20 @@
       <div class="contact-section">
         <h1 role="heading">Contact Us</h1>
         <form role="form" action="thanks.html">
-          <label>Full Name</label>
-          <input type="text" placeholder="eg. John Doe">
-          <label>Email</label>
-          <input type="text" placeholder="eg. johnjoe@jambox.ca">
-          <label>Subject</label>
-          <input type="text" placeholder="eg. Inquiry about products">
-          <label>Your Message</label>
-          <textarea role="textbox" placeholder="Please type your message here..."></textarea>
+          <label for="yourname">Full Name</label>
+          <input type="text" id="yourname" name="yourname" placeholder="eg. John Doe">
+          <label for="youremail">Email</label>
+          <input type="email" id="youremail" name="youremail" placeholder="eg. johnjoe@jambox.ca">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="eg. Inquiry about products">
+          <label for="yourmessage">Your Message</label>
+          <textarea role="textbox" id="yourmessage" name="yourmessage" placeholder="Please type your message here..."></textarea>
           <button role="button" aria-label="Submit your message now" type="submit">Send</button>
         </form>
       </div>
     </main>
     <footer role="contentinfo" class="site-footer">
-      &copy; 2021 Jam Box Studios
+      &copy; 2021 Jam Box Studios<a href="#top">Back to Top</a>"
     </footer>
   </div>
 </body>

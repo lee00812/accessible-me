@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: white;
   margin: 0;
   padding: 0;
 }
@@ -29,7 +29,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  padding: 0;
+  padding-bottom: 1em;
 }
 
 .main-nav ul li {
@@ -62,7 +62,10 @@ form textarea {
 form button {
   background: none;
   border: 2px solid black;
-  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   text-transform: uppercase;
 }
 
